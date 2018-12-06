@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Word from './components/wordForm'
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,9 @@ export default class App extends React.Component {
           Anagrams
         </p>
         </header>
+        <div className="word">
+          <Word />
+        </div>
       </div>
     );
   }

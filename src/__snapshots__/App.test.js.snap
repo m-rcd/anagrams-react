@@ -11,5 +11,21 @@ exports[`renders without crashing 1`] = `
       Anagrams
     </p>
   </header>
+  <div
+    className="word"
+  >
+    <form>
+      <input
+        className="word"
+        placeholder="Enter your word"
+        required={true}
+        type="text"
+      />
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
 </div>
 `;
