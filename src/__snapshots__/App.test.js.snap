@@ -17,14 +17,16 @@ exports[`renders without crashing 1`] = `
     <form>
       <input
         className="word"
+        onChange={[Function]}
         placeholder="Enter your word"
         required={true}
         type="text"
       />
-      <input
-        type="submit"
-        value="Submit"
-      />
+      <div>
+        <button>
+          Search
+        </button>
+      </div>
     </form>
   </div>
 </div>

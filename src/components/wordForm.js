@@ -9,7 +9,6 @@ export default class Word extends React.Component {
 }
 
 updateWord = (e) => {
-  e.preventDefault();
   this.setState({
     word: e.target.value
   })
